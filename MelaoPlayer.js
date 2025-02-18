@@ -10,8 +10,8 @@
 
 class MelaoGameClass {
   static board = null;
-  static MAX_DEPTH = 3;
-  static MAX_LEVEL = 3;
+  static MAX_DEPTH = 2;
+  static MAX_LEVEL = 2;
   static playerColor = null;
   static MANY_FEAT_VAL = 1000000;
   static ONE_FEAT_VAL = 1000;
