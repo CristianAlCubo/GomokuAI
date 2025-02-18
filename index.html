@@ -13,6 +13,8 @@
     <title>Gomoku</title>
     <script type='text/javascript' src='https://jgomezpe.github.io/konekti/src/konekti.js'></script>
     <script type='text/javascript' src='gomoku.js'></script>
+    <script type='text/javascript' src='OtherPlayers.js'></script>
+    <script type="text/javascript" src="MelaoPlayer.js"></script>
 </head>
 
 <body>
@@ -31,7 +33,9 @@
                 'minimax1': new MinimaxPlayer(),
                 'minimax2': new MinimaxPlayer(),
                 'neighbour1': new FirstNeighbourMovePlayer(),
-                'neighbour2': new FirstNeighbourMovePlayer()
+                'neighbour2': new FirstNeighbourMovePlayer(),
+                'melao1': new MelaoPlayer(),
+                'melao2': new MelaoPlayer(),
             })
 
             Konekti.header('title', '', 'Gomoku', 3, { 'class': 'w3-black w3-center' })
